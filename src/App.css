@@ -1,38 +1,109 @@
 .App {
-  text-align: center;
+  background-color: hwb(34 88% 9%);
+  color: #2c2c2c;
+  line-height: 1.6;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 10px 0;
 }
 
-.App-link {
-  color: #61dafb;
+.logo {
+  display: flex;
+  align-items: center;
+  width:250px;
+  height:150px;
+  text-align:center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo h1 {
+  font-size: 24px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.logo span {
+  font-size: 12px;
+  color: #7a7a7a;
+  margin-left: 5px;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #2c2c2c;
+  font-weight: bold;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+  /*max-width: 1200px;*/
+  margin: auto;
+}
+
+.grid-item {
+position: relative;
+background-size: cover;
+background-position: center;
+height: 300px;
+overflow: hidden;
+}
+
+.overlay {
+position: initial;
+height: 80px;
+bottom: 0;
+background: rgba(0, 0, 0, 0.5);
+color: #fff;
+width: 100%;
+text-align: center;
+padding: 10px;
+font-size: 18px;
+}
+.title-button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  margin: auto;
+}
+
+/* Title Text */
+.title-text {
+  font-size: 1.5rem;
+  color: #333; /* Dark grey for text */
+  flex: 1;
+  margin-right: 20px;
+}
+
+/* Button */
+.cta-button {
+  background-color: #365069; /* Dark blue button */
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-button .arrow {
+  margin-left: 10px;
+  font-size: 1.2rem;
+}
+
+.cta-button:hover {
+  background-color: #2b4053; /* Darker shade on hover */
+  transform: translateY(-2px);
 }
