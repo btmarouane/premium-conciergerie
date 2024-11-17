@@ -1,5 +1,5 @@
 .App {
-  background-color: hwb(34 88% 9%);
+  background-color: #ddd8d4;
   color: #2c2c2c;
   line-height: 1.6;
   padding: 20px;
@@ -36,7 +36,16 @@
   margin: 0 15px;
   text-decoration: none;
   color: #2c2c2c;
-  font-weight: bold;
+  font-size: x-large;
+  display: inline-flex;
+  column-gap: 10px;
+  /*font-weight: bold;*/
+}
+
+.nl-icon {
+  height: 40px;
+  width: 40px;
+
 }
 
 .grid-container {
@@ -49,24 +58,77 @@
 }
 
 .grid-item {
-position: relative;
-background-size: cover;
-background-position: center;
-height: 300px;
-overflow: hidden;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  overflow: hidden;
 }
 
 .overlay {
-position: initial;
-height: 80px;
-bottom: 0;
-background: rgba(0, 0, 0, 0.5);
-color: #fff;
-width: 100%;
-text-align: center;
-padding: 10px;
-font-size: 18px;
+  position: initial;
+  height: 80px;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
 }
+
+.feat1-overlay {
+  position: initial;
+  height: 60px;
+  bottom: 0;
+  background: #000000;
+  opacity: 0.6;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.feat2-overlay {
+  position: initial;
+  height: 60px;
+  bottom: 0;
+  background: #615d57;
+  opacity: 0.6;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.feat3-overlay {
+  position: initial;
+  height: 60px;
+  bottom: 0;
+  background: #7d4e30;
+  opacity: 0.6;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.feat4-overlay {
+  position: initial;
+  height: 60px;
+  bottom: 0;
+  background: #2d5166;
+  opacity: 0.6;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+
 .title-button-container {
   display: flex;
   justify-content: space-between;
@@ -77,7 +139,7 @@ font-size: 18px;
 
 /* Title Text */
 .title-text {
-  font-size: 1.5rem;
+  font-size: 2.3rem;
   color: #333; /* Dark grey for text */
   flex: 1;
   margin-right: 20px;

@@ -1,11 +1,15 @@
 import './App.css';
-import image1 from './assets/image1.png'
-import image2 from './assets/image2.png'
+import user_icon from './assets/user-icon.png'
+import phone_icon from './assets/phone-icon.png'
+import pen_icon from './assets/pen-icon.png'
+import image1 from './assets/image1.jpg'
+import image2 from './assets/image2.jpg'
 import image3 from './assets/image3.jpg'
 import image4 from './assets/image4.jpg'
-import logo from './assets/LOGO_VF4.png'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUser, faPhone,faPen } from '@fortawesome/free-solid-svg-icons'
+import logo from './assets/Logos VF2.png'
+
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+//import { faUser, faPhone,faPen } from '@fortawesome/free-solid-svg-icons'
 
 function App() {
   return (
@@ -16,13 +20,14 @@ function App() {
         </div>
         <nav class="nav-links">
             <a href="#">
-                <FontAwesomeIcon icon={faUser} />
-                Mon compte</a>
+                <img class="nl-icon" src={user_icon}/>
+                <span>Mon compte</span>
+            </a>
             <a href="#">
-              <FontAwesomeIcon icon={faPhone} />
+              <img class="nl-icon" src={phone_icon}/>
                 Nous contacter</a>
             <a href="#">
-              <FontAwesomeIcon icon={faPen} />
+            <img class="nl-icon" src={pen_icon}/>
                 Blog</a>
         </nav>
     </header>
@@ -36,16 +41,16 @@ function App() {
     </div>
     <div class="grid-container">
         <div class="grid-item" style={{ backgroundImage: `url(${image1})` }}>
-          <div class="overlay">Estimez vos revenus locatifs</div>
+          <div class="feat1-overlay">Estimez vos revenus locatifs</div>
         </div>
         <div class="grid-item" style={{ backgroundImage: `url(${image2})` }}>
-          <div class="overlay">Pourquoi nous choisir ?</div>
+          <div class="feat2-overlay">Pourquoi nous choisir ?</div>
         </div>
         <div class="grid-item" style={{ backgroundImage: `url(${image3})` }}>
-          <div class="overlay">Découvrez notre offre</div>
+          <div class="feat3-overlay">Découvrez notre offre</div>
         </div>
         <div class="grid-item" style={{ backgroundImage: `url(${image4})` }}>
-          <div class="overlay">Réserver directement votre séjour</div>
+          <div class="feat4-overlay">Réserver directement votre séjour</div>
         </div>
     </div>
     </div>
