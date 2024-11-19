@@ -7,16 +7,23 @@ import image2 from './assets/image2.jpg'
 import image3 from './assets/image3.jpg'
 import image4 from './assets/image4.jpg'
 import logo from './assets/Logos VF2.png'
+import bars_icon from './assets/bars-icon.png'
 
-//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 //import { faUser, faPhone,faPen } from '@fortawesome/free-solid-svg-icons'
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
   return (
     <div className="App">
       <header class="navbar">
-        <div class="logo">
-            <img src={logo} alt="Premium BNB Logo"/>
+        <div class="navbar-principal">
+        <a href="#" >
+          <img class="logo-menu" src={bars_icon}/>
+        </a>
+          <div class="logo">
+              <img src={logo} alt="Premium BNB Logo"/>
+          </div>
         </div>
         <nav class="nav-links">
             <a href="#">
