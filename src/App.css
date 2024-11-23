@@ -81,6 +81,7 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 .grid-item {
   position: relative;
   background-size: cover;
@@ -192,4 +193,167 @@
 .cta-button:hover {
   background-color: #2b4053; /* Darker shade on hover */
   transform: translateY(-2px);
+}
+
+.about-section {
+  background-color: #2d5166; /* Matches the color tone in the design */
+  color: #fff;
+  padding: 50px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.left-content {
+  flex: 1 1 50%;
+}
+
+.left-content h1{
+  font-size: 3.5rem;
+  color: #fff;
+  width: 100%;
+  margin-bottom: 65px;
+}
+
+.left-content p {
+  margin-bottom: 15px;
+  line-height: 1.8;
+  font-family: 'TT Interphases'
+}
+
+.right-content {
+  flex: 1 1 35%;
+  
+}
+
+.right-content img {
+  max-width: 100%;
+  width: 100%;
+  height: 41%;
+  margin-bottom: 20px;
+}
+
+.text-below p {
+  margin-bottom: 15px;
+  line-height: 1.8;
+  font-family: 'TT Interphases'
+}
+
+@media (max-width: 768px) {
+  .container {
+      flex-direction: column;
+      gap: 20px;
+  }
+
+  .left-content, .right-content {
+      flex: 1 1 100%;
+  }
+
+  .left-content {
+      order: 1;
+  }
+
+  .right-content {
+      order: 2;
+  }
+
+  .left-content h1{
+      font-size: 2rem;
+      text-align: justify;
+  }
+
+  .left-content p {
+      text-align: justify;
+  }
+}
+
+.offer-section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.offer-section h1 {
+  font-size: 3.5rem;
+  color: #000000;
+  margin-bottom: 0px;
+}
+
+.offer-section p{
+  line-height: 1.8;
+  color: #000000;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+  .services {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.service {
+  flex: 1;
+  text-align: center;
+  padding: 15px;
+}
+
+.service a:hover {
+  transform: translateY(-2px);
+}
+
+.service img {
+  margin-top: 30px;
+  width: 100%;
+  max-height: 240px;
+}
+
+.offer-button-1 {
+  background-color: #000000; /* Dark blue button */
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 50px;
+  display: block;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.offer-button-2 {
+  background-color: #6e717a; /* Dark blue button */
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 50px;
+  display: block;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.offer-button-3 {
+  background-color: #2d5166; /* Dark blue button */
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 50px;
+  display: block;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
