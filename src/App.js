@@ -105,6 +105,36 @@ function App() {
             </div>
         </div>
       </section>
+      <section class="offer2-section">
+      <header class="offer2-header">
+        <button class="offer2-button">Notre offre</button>
+      </header>
+      <main class="main-content">
+        <h1 class="title">Préparation et optimisation du bien</h1>
+        <div class="features2-grid">
+          <div class="feature2-item">
+            <h2><span class="number">01</span> Aménagement & Home Staging</h2>
+            <p>Conseils et assistance pour aménager et décorer votre bien afin de le rendre plus attrayant et d’optimiser les chances de location.</p>
+            <a href="#" class="features2-arrow-link">→</a>
+          </div>
+          <div class="feature2-item">
+            <h2><span class="number">02</span> Photographie professionnelle</h2>
+            <p>Prise de photos par des experts en photographie immobilière pour mettre en avant le confort, l’élégance et l’atmosphère unique de votre espace.</p>
+            <a href="#" class="features2-arrow-link">→</a>
+          </div>
+          <div class="feature2-item">
+            <h2><span class="number">03</span> Création d’annonces optimisées</h2>
+            <p>Rédaction d’annonces captivantes et optimisées pour maximiser la visibilité sur des plateformes comme Airbnb et Booking.com.</p>
+            <a href="#" class="features2-arrow-link">→</a>
+          </div>
+          <div class="feature2-item">
+            <h2><span class="number">04</span> Tarification dynamique</h2>
+            <p>Mise en place de stratégies tarifaires adaptées au marché et aux périodes de forte demande pour optimiser les revenus locatifs.</p>
+            <a href="#" class="features2-arrow-link">→</a>
+          </div>
+        </div>
+      </main>
+      </section>
     </div>
   );
 }

@@ -357,3 +357,77 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
+
+/**/
+
+.offer2-section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.offer2-header {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+}
+
+.offer2-button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.offer2-button:hover {
+  background-color: #333;
+}
+
+.offer2-title {
+  font-size: 28px;
+  margin-bottom: 40px;
+  color: #222;
+  text-align: left;
+}
+
+.features2-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.feature2-item {
+  padding: 10px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.feature2-item h2 {
+  font-size: 20px;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.feature2-item .number {
+  font-size: 24px;
+  font-weight: bold;
+  color: #888;
+}
+
+.feature2-item p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.feature2-arrow-link {
+  font-size: 18px;
+  text-decoration: none;
+  color: #888;
+}
+
+.feature2-arrow-link:hover {
+  color: #000;
+}
