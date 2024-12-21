@@ -9,6 +9,12 @@ import image4 from './assets/image4.jpg'
 import image5 from './assets/image5.jpg'
 import image6 from './assets/image6.jpg'
 import image7 from './assets/image7.jpg'
+import image9 from './assets/image9.png'
+import image10 from './assets/image10bis.png'
+import image12 from './assets/image12bis.png'
+import image14 from './assets/image14bis.png'
+import image16 from './assets/image16.jpeg'
+import image11 from './assets/image11.png'
 import logo from './assets/Logos VF2.png'
 import bars_icon from './assets/bars-icon.png'
 
@@ -135,6 +141,66 @@ function App() {
             </div>
           </div>
         </main>
+        </div>
+      </section>
+      <section class="offer3-section">
+        <div class="offer3-container">
+          <header class="offer3-header">
+            <div>
+              <button class="offer3-button">Notre offre</button>
+              <h1 class="offer3-title">Préparation et optimisation du bien</h1>
+              <h2 class="offer3-title2">1- Aménagement & Home Staging</h2>
+            </div>
+            <img class="offer3-image" src={image9} alt="" />
+          </header>
+          <main class="main-content">
+            <div class="offer3-features">
+              <div class="offer3-feature">
+                <div class="offer3-feature-head" >
+                  <img class="offer3-feature-image" src={image10} alt="" />
+                </div>
+                <div style={{ backgroundImage: `url(${image16})`, backgroundSize: `500px` }} class="offer3-feature-content">
+                  <h3 class="offer3-feature-title">OFFRE BASIQUE</h3>
+                  <p class="offer3-feature-description">
+                    <ul>
+                      <li>Conseil en aménagement pour biens neufs ou à rénover.</li>
+                      <li>Fourniture d'un Book Concept incluant des recommandations d’agencement, mobilier, matériaux et couleurs.</li>
+                    </ul>
+                     
+                  </p>
+                </div>
+              </div>
+              <div class="offer3-feature">
+                <div class="offer3-feature-head" >
+                  <img class="offer3-feature-image" src={image12} alt="" />
+                </div>
+                <div class="offer3-feature2-content">
+                  <h3 class="offer3-feature-title">OFFRE CONFORT</h3>
+                  <p class="offer3-feature-description">
+                    <ul>
+                      <li>Comprend l'offre <b>BASIQUE.</b></li>
+                      <li>Réalisation des travaux d'aménagement en favorisant un environnement de vie contortable et respectueux de la santé.</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+              <div class="offer3-feature">
+                <div class="offer3-feature-head" >
+                  <img class="offer3-feature-image" src={image14} alt="" />
+                </div>
+                <div class="offer3-feature-content">
+                  <h3 class="offer3-feature-title">OFFRE PREMIUM</h3>
+                  <p class="offer3-feature-description">
+                    <ul>
+                      <li>Comprend l'offre <b>CONFORT.</b></li>
+                      <li>Branding personnalisé pour les multipropriétaires, avec création d'une identité visuelle cohérente pour l'ensemble des biens.</li>
+                    </ul>
+                     
+                  </p>
+                </div>
+              </div>
+            </div>
+          </main>
         </div>
       </section>
     </div>
