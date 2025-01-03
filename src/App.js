@@ -203,6 +203,58 @@ function App() {
           </main>
         </div>
       </section>
+      <section class="offer4-section">
+        <div class="offer4-container">
+          <header class="offer4-header">
+            <div>
+              <button class="offer3-button">Notre offre</button>
+              <h1 class="offer3-title">Préparation et optimisation du bien</h1>
+              <h2 class="offer3-title2">2- Photographie professionnelle</h2>
+            </div>
+            <img class="offer3-image" src={image9} alt="" />
+          </header>
+          <main class="main-content">
+            <div class="offer4-features">
+              <div class="offer4-feature">
+                <div class="offer4-feature-message">
+                  <p>
+                  Grâce à des photos de haute qualité réalisées
+                  par des experts, nous mettons en lumière les
+                  atouts uniques de votre espace, en capturant
+                  ses meilleurs angles. Ces images percutantes
+                  créent une première impression mémorable
+                  qui attire davantage de locataires. Elles
+                  maximisent la visibilité de votre bien sur les
+                  principales plateformes de location,
+                  augmentant ainsi vos chances de location
+                  rapide et régulière.
+                  </p>
+                </div>
+                
+                <div class="offer4-feature-gallery">
+                  <div class="offer4-feature-gallery-container">
+                    <div class="offer4-feature-gallery-item offer4-feature-gallery-item-living-room">
+                        <img src={image1} alt="Modern living room with beige couch"/>
+                    </div>
+
+                    <div class="offer4-feature-gallery-item offer4-feature-gallery-item-bathroom">
+                        <img src={image2} alt="Contemporary bathroom with circular mirror"/>
+                    </div>
+
+                    <div class="offer4-feature-gallery-item offer4-feature-gallery-item-spa">
+                        <img src={image3} alt="Spa accessories with towel"/>
+                    </div>
+
+                    <div class="offer4-feature-gallery-item offer4-feature-gallery-item-kitchen">
+                        <img src={image4} alt="Modern kitchen with bar stools"/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </main>
+        </div>
+      </section>
     </div>
   );
 }
