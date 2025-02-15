@@ -277,7 +277,49 @@ function App() {
           </main>
         </div>
       </section>
+      
+      <section className="offer4-section">
+      <div className="offer4-container">
+        <header className="offer4-header">
+          <div>
+            <button className="offer3-button">Notre offre</button>
+            <h1 className="offer3-title">Préparation et optimisation du bien</h1>
+            <h2 className="offer3-title2">3- Création d'annonces optimisées</h2>
+          </div>
+          <img className="offer3-image" src={image9} alt="Illustration" />
+        </header>
 
+        <main className="offer4-features">
+          <div className="feature-box">
+            <h3>Annonces captivantes</h3>
+            <p>
+              Nous créons des annonces percutantes qui mettent en avant les
+              atouts clés de votre bien pour capter rapidement l’attention des
+              locataires potentiels.
+            </p>
+          </div>
+
+          <div className="feature-box">
+            <h3>Optimisation SEO</h3>
+            <p>
+              Nos annonces sont optimisées pour apparaître en tête des résultats
+              de recherche, augmentant ainsi la visibilité de votre bien sur les
+              plateformes de location.
+            </p>
+          </div>
+
+          <div className="feature-box">
+            <h3>Ajustements réguliers</h3>
+            <p>
+              Nous mettons à jour les annonces en fonction des tendances du
+              marché et des saisons pour maximiser les chances de réservation.
+            </p>
+          </div>
+        </main>
+      </div>
+
+
+    </section>
       <section class="offer5-section">
         <div class="offer5-container">
           <header class="offer5-header">
