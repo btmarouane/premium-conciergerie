@@ -14,6 +14,29 @@ import image10 from './assets/image10bis.png'
 import image12 from './assets/image12bis.png'
 import image14 from './assets/image14bis.png'
 import image16 from './assets/image16.jpeg'
+import image17 from './assets/image17.png'
+import image18 from './assets/image18.png'
+import image19 from './assets/image19.png'
+import image20 from './assets/image20.png'
+import offer5bg1 from './assets/offer5-bg1.png'
+import offer5bg2 from './assets/offer5-bg2.png'
+import offer5bg3 from './assets/offer5-bg3.png'
+import offer5bg4 from './assets/offer5-bg4.png'
+import offer5bg5 from './assets/offer5-bg5.png'
+import offer5bg6 from './assets/offer5-bg6.png'
+import offer5bg7 from './assets/offer5-bg7.png'
+import offer5bg8 from './assets/offer5-bg8.png'
+import offer5bg9 from './assets/offer5-bg9.png'
+import offer5ic1 from './assets/offer5-ic1.png'
+import offer5ic2 from './assets/offer5-ic2.png'
+import offer5ic3 from './assets/offer5-ic3.png'
+import offer5ic4 from './assets/offer5-ic4.png'
+import offer5ic5 from './assets/offer5-ic5.png'
+import offer5ic6 from './assets/offer5-ic6.png'
+import offer5ic7 from './assets/offer5-ic7.png'
+import offer5ic8 from './assets/offer5-ic8.png'
+import offer5ic9 from './assets/offer5-ic9.png'
+
 import image11 from './assets/image11.png'
 import logo from './assets/Logos VF2.png'
 import bars_icon from './assets/bars-icon.png'
@@ -229,27 +252,77 @@ function App() {
                   augmentant ainsi vos chances de location
                   rapide et régulière.
                   </p>
-                </div>
-                
+                </div>          
                 <div class="offer4-feature-gallery">
                   <div class="offer4-feature-gallery-container">
                     <div class="offer4-feature-gallery-item offer4-feature-gallery-item-living-room">
-                        <img src={image1} alt="Modern living room with beige couch"/>
+                        <img class="offer4-feature-gallery-item-image" src={image17} alt="Modern living room with beige couch"/>
                     </div>
 
                     <div class="offer4-feature-gallery-item offer4-feature-gallery-item-bathroom">
-                        <img src={image2} alt="Contemporary bathroom with circular mirror"/>
+                        <img class="offer4-feature-gallery-item-image" src={image18} alt="Contemporary bathroom with circular mirror"/>
                     </div>
 
                     <div class="offer4-feature-gallery-item offer4-feature-gallery-item-spa">
-                        <img src={image3} alt="Spa accessories with towel"/>
+                        <img class="offer4-feature-gallery-item-image" src={image19} alt="Spa accessories with towel"/>
                     </div>
 
                     <div class="offer4-feature-gallery-item offer4-feature-gallery-item-kitchen">
-                        <img src={image4} alt="Modern kitchen with bar stools"/>
+                        <img class="offer4-feature-gallery-item-image" src={image20} alt="Modern kitchen with bar stools"/>
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+          </main>
+        </div>
+      </section>
+
+      <section class="offer5-section">
+        <div class="offer5-container">
+          <header class="offer5-header">
+            <div>
+              <button class="offer5-button">Notre offre</button>
+              <h1 class="offer5-title">Gestion de location</h1>
+            </div>
+          </header>
+          <main class="main-content">
+            <div class="offer5-features">
+              <div class="offer5-feature" style={{ backgroundImage: `url(${offer5bg1})` }}>
+                  <img src={offer5ic1} alt="Gestion et coordination des réservations"/>
+                  <p>Gestion et coordination des réservations</p>
+              </div>
+              <div class="offer5-feature" style={{ backgroundImage: `url(${offer5bg2})` }}>
+                  <img src={offer5ic2} alt="Suivi des avis et évaluations"/>
+                  <p>Suivi des avis et évaluations</p>
+              </div>
+              <div class="offer5-feature" style={{ backgroundImage: `url(${offer5bg3})` }}>
+                  <img src={offer5ic3} alt="Check-in & Check-out"/>
+                  <p>Check-in & Check-out</p>
+              </div>
+              <div class="offer5-feature" style={{ backgroundImage: `url(${offer5bg4})` }}>
+                  <img src={offer5ic4} alt="Assistance client 24/7"/>
+                  <p>Assistance client 24/7</p>
+              </div>
+              <div class="offer5-feature" style={{ backgroundImage: `url(${offer5bg5})` }}>
+                  <img src={offer5ic5} alt="Nettoyage professionnel"/>
+                  <p>Nettoyage professionnel</p>
+              </div>
+              <div class="offer5-feature" style={{ backgroundImage: `url(${offer5bg6})` }}>
+                  <img src={offer5ic6} alt="Gestion du linge et des fournitures"/>
+                  <p>Gestion du linge et des fournitures</p>
+              </div>
+              <div class="offer5-feature" style={{ backgroundImage: `url(${offer5bg7})` }}>
+                  <img src={offer5ic7} alt="Entretien et maintenance"/>
+                  <p>Entretien et maintenance</p>
+              </div>
+              <div class="offer5-feature" style={{ backgroundImage: `url(${offer5bg8})` }}>
+                  <img src={offer5ic8} alt="Administration et reporting"/>
+                  <p>Administration et reporting</p>
+              </div>
+              <div class="offer5-feature" style={{ backgroundImage: `url(${offer5bg9})` }}>
+                  <img src={offer5ic9} alt="Notre PMS"/>
+                  <p>Notre PMS : La clé d'une gestion optimisée</p>
               </div>
             </div>
           </main>
