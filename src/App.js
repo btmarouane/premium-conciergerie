@@ -277,94 +277,117 @@ function App() {
           </main>
         </div>
       </section>
-      
       <section className="offer4-section">
-      <div className="offer4-container">
-        <header className="offer4-header">
+        <div className="offer4-container">
+          <header className="offer4-header">
+            <div>
+              <button className="offer3-button">Notre offre</button>
+              <h1 className="offer3-title">Préparation et optimisation du bien</h1>
+              <h2 className="offer3-title2">3- Création d'annonces optimisées</h2>
+            </div>
+            <img className="offer3-image" src={image9} alt="Illustration" />
+          </header>
+          <main className="offer4-features">
+            <div className="feature-box">
+              <h3>Annonces captivantes</h3>
+              <p>
+                Nous créons des annonces percutantes qui mettent en avant les
+                atouts clés de votre bien pour capter rapidement l’attention des
+                locataires potentiels.
+              </p>
+            </div>
+
+            <div className="feature-box">
+              <h3>Optimisation SEO</h3>
+              <p>
+                Nos annonces sont optimisées pour apparaître en tête des résultats
+                de recherche, augmentant ainsi la visibilité de votre bien sur les
+                plateformes de location.
+              </p>
+            </div>
+
+            <div className="feature-box">
+              <h3>Ajustements réguliers</h3>
+              <p>
+                Nous mettons à jour les annonces en fonction des tendances du
+                marché et des saisons pour maximiser les chances de réservation.
+              </p>
+            </div>
+          </main>
+        </div>
+      </section>
+    <section class="offer5-section">
+      <div class="offer5-container">
+        <header class="offer5-header">
           <div>
-            <button className="offer3-button">Notre offre</button>
-            <h1 className="offer3-title">Préparation et optimisation du bien</h1>
-            <h2 className="offer3-title2">3- Création d'annonces optimisées</h2>
+            <button class="offer5-button">Notre offre</button>
+            <h1 class="offer5-title">Gestion de location</h1>
           </div>
-          <img className="offer3-image" src={image9} alt="Illustration" />
         </header>
-
-        <main className="offer4-features">
-          <div className="feature-box">
-            <h3>Annonces captivantes</h3>
-            <p>
-              Nous créons des annonces percutantes qui mettent en avant les
-              atouts clés de votre bien pour capter rapidement l’attention des
-              locataires potentiels.
-            </p>
-          </div>
-
-          <div className="feature-box">
-            <h3>Optimisation SEO</h3>
-            <p>
-              Nos annonces sont optimisées pour apparaître en tête des résultats
-              de recherche, augmentant ainsi la visibilité de votre bien sur les
-              plateformes de location.
-            </p>
-          </div>
-
-          <div className="feature-box">
-            <h3>Ajustements réguliers</h3>
-            <p>
-              Nous mettons à jour les annonces en fonction des tendances du
-              marché et des saisons pour maximiser les chances de réservation.
-            </p>
+        <main class="main-content">
+          <div class="offer5-features">
+            <div class="offer5-feature" style={{ backgroundImage: `url(${offer5bg1})` }}>
+                <img src={offer5ic1} alt="Gestion et coordination des réservations"/>
+                <p>Gestion et coordination des réservations</p>
+            </div>
+            <div class="offer5-feature" style={{ backgroundImage: `url(${offer5bg2})` }}>
+                <img src={offer5ic2} alt="Suivi des avis et évaluations"/>
+                <p>Suivi des avis et évaluations</p>
+            </div>
+            <div class="offer5-feature" style={{ backgroundImage: `url(${offer5bg3})` }}>
+                <img src={offer5ic3} alt="Check-in & Check-out"/>
+                <p>Check-in & Check-out</p>
+            </div>
+            <div class="offer5-feature" style={{ backgroundImage: `url(${offer5bg4})` }}>
+                <img src={offer5ic4} alt="Assistance client 24/7"/>
+                <p>Assistance client 24/7</p>
+            </div>
+            <div class="offer5-feature" style={{ backgroundImage: `url(${offer5bg5})` }}>
+                <img src={offer5ic5} alt="Nettoyage professionnel"/>
+                <p>Nettoyage professionnel</p>
+            </div>
+            <div class="offer5-feature" style={{ backgroundImage: `url(${offer5bg6})` }}>
+                <img src={offer5ic6} alt="Gestion du linge et des fournitures"/>
+                <p>Gestion du linge et des fournitures</p>
+            </div>
+            <div class="offer5-feature" style={{ backgroundImage: `url(${offer5bg7})` }}>
+                <img src={offer5ic7} alt="Entretien et maintenance"/>
+                <p>Entretien et maintenance</p>
+            </div>
+            <div class="offer5-feature" style={{ backgroundImage: `url(${offer5bg8})` }}>
+                <img src={offer5ic8} alt="Administration et reporting"/>
+                <p>Administration et reporting</p>
+            </div>
+            <div class="offer5-feature" style={{ backgroundImage: `url(${offer5bg9})` }}>
+                <img src={offer5ic9} alt="Notre PMS"/>
+                <p>Notre PMS : La clé d'une gestion optimisée</p>
+            </div>
           </div>
         </main>
       </div>
-
-
     </section>
-      <section class="offer5-section">
-        <div class="offer5-container">
-          <header class="offer5-header">
+    <section class="offer6-section">
+        <div class="offer6-container">
+          <header class="offer6-header">
             <div>
-              <button class="offer5-button">Notre offre</button>
-              <h1 class="offer5-title">Gestion de location</h1>
+              <button class="offer6-button">Notre offre</button>
+              <h1 class="offer6-title">Gestion de location</h1>
             </div>
           </header>
           <main class="main-content">
-            <div class="offer5-features">
-              <div class="offer5-feature" style={{ backgroundImage: `url(${offer5bg1})` }}>
+            <div class="offer6-features">
+              <div class="offer6-feature">
+                <div class="offer6-feature-title">
                   <img src={offer5ic1} alt="Gestion et coordination des réservations"/>
-                  <p>Gestion et coordination des réservations</p>
-              </div>
-              <div class="offer5-feature" style={{ backgroundImage: `url(${offer5bg2})` }}>
-                  <img src={offer5ic2} alt="Suivi des avis et évaluations"/>
-                  <p>Suivi des avis et évaluations</p>
-              </div>
-              <div class="offer5-feature" style={{ backgroundImage: `url(${offer5bg3})` }}>
-                  <img src={offer5ic3} alt="Check-in & Check-out"/>
-                  <p>Check-in & Check-out</p>
-              </div>
-              <div class="offer5-feature" style={{ backgroundImage: `url(${offer5bg4})` }}>
-                  <img src={offer5ic4} alt="Assistance client 24/7"/>
-                  <p>Assistance client 24/7</p>
-              </div>
-              <div class="offer5-feature" style={{ backgroundImage: `url(${offer5bg5})` }}>
-                  <img src={offer5ic5} alt="Nettoyage professionnel"/>
-                  <p>Nettoyage professionnel</p>
-              </div>
-              <div class="offer5-feature" style={{ backgroundImage: `url(${offer5bg6})` }}>
-                  <img src={offer5ic6} alt="Gestion du linge et des fournitures"/>
-                  <p>Gestion du linge et des fournitures</p>
-              </div>
-              <div class="offer5-feature" style={{ backgroundImage: `url(${offer5bg7})` }}>
-                  <img src={offer5ic7} alt="Entretien et maintenance"/>
-                  <p>Entretien et maintenance</p>
-              </div>
-              <div class="offer5-feature" style={{ backgroundImage: `url(${offer5bg8})` }}>
-                  <img src={offer5ic8} alt="Administration et reporting"/>
-                  <p>Administration et reporting</p>
-              </div>
-              <div class="offer5-feature" style={{ backgroundImage: `url(${offer5bg9})` }}>
-                  <img src={offer5ic9} alt="Notre PMS"/>
-                  <p>Notre PMS : La clé d'une gestion optimisée</p>
+                  Gestion et coordination des réservations
+                </div>          
+                <div class="offer6-feature-details">
+                  <ul>
+                    <li>Création et gestion optimisée des annonces, incluant des descriptions impactantes, des photos professionnelles, et une tarification adaptée pour maximiser l'attractivité.</li>
+                    <li>Centralisation des calendriers de réservation, garantissant une coordination fluide et une gestion simplifiée des disponibilités.</li>
+                    <li>Suivi complet des réservations, accompagné d'une communication personnalisée pour assurer une expérience locataire de qualité.</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </main>

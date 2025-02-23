@@ -776,3 +776,72 @@
   color: #555;
   font-weight: bold;
 }
+
+/*****/
+
+.offer6-section {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #f8f8f8;
+  padding-bottom: 40px;
+}
+
+.offer6-container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.offer6-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px 0px 30px;
+  margin: auto;
+}
+
+.offer6-button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-family: 'TT Interphases';
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+.offer6-title {
+  color: #191919;
+  font-size: 36;
+  font-family: 'TT Interphases';
+}
+
+.offer6-title2 {
+  color: #3d3b30;
+  font-size: 21;
+  font-family: 'ramillas';
+  font-weight: bold;
+}
+
+.offer6-features {
+  display: flex;
+  justify-content: space-between;
+  gap: 0px;
+}
+
+.offer6-feature {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px 0px 30px;
+  max-width: 1400px;
+  margin: 0 auto;
+  gap: 0px;
+}
+
+.offer6-feature-title {
+  font-weight: bold;
+}
+.offer6-feature-details {
+  font-size: medium;
+}
